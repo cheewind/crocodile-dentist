@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#game {
+  position: relative;
+}
+
+#ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.clickarea {
+  z-index: 99;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  user-select: none;
+}
